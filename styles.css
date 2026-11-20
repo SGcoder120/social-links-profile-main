@@ -1,0 +1,22 @@
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 30vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
