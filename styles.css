@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 .attribution {
     font-size: 0.6875rem;
     text-align: center;
@@ -9,14 +14,39 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    gap: 20px;
+}
+
+p, h3, button, .attribution {
+    font-size: 14px;
+    color: white;
 }
 
 .container {
-    width: 30vw;
-    height: 80vh;
     display: flex;
     flex-direction: column;
+    gap: 15px;
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+p.location {
+    color: hsl(75, 94%, 57%);
+}
+
+button {
+    background-color: hsl(0, 0%, 20%);
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
 }
