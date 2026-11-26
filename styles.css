@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: "Inter", sans-serif;
 }
 
 .attribution {
@@ -34,14 +35,21 @@ p, h3, button, .attribution {
     background-color: hsl(0, 0%, 12%);
     padding: 20px;
     border-radius: 15px;
+    align-items: center;
 }
 
-img {
+.avatar-img {
     border-radius: 50%;
+    width: 75px;
 }
 
 p.location {
     color: hsl(75, 94%, 57%);
+    padding-bottom: 12px;
+}
+
+p.role {
+    padding-bottom: 10px;
 }
 
 button {
@@ -49,4 +57,10 @@ button {
     padding: 8px 10px;
     border: none;
     border-radius: 5px;
+    width: 100%;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
 }
