@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Project preview](./preview.jpg)
+![Project preview](./assets/images/screenshot_image.png)
 
 ### Links
 

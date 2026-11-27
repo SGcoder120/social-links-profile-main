@@ -23,8 +23,14 @@ body {
     gap: 20px;
 }
 
-p, h3, button, .attribution {
+p,
+button,
+.attribution {
     font-size: 14px;
+    color: white;
+}
+
+h2 {
     color: white;
 }
 
@@ -33,7 +39,7 @@ p, h3, button, .attribution {
     flex-direction: column;
     gap: 15px;
     background-color: hsl(0, 0%, 12%);
-    padding: 20px;
+    padding: 30px;
     border-radius: 15px;
     align-items: center;
 }
@@ -52,15 +58,18 @@ p.role {
     padding-bottom: 10px;
 }
 
-button {
+a button {
+    text-decoration: none;
+    color: white;
     background-color: hsl(0, 0%, 20%);
     padding: 8px 10px;
     border: none;
     border-radius: 5px;
-    width: 100%;
+    width: 250px;
 }
 
-button a {
-    text-decoration: none;
-    color: white;
+a button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
 }
